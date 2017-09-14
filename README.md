@@ -1,2 +1,23 @@
-# mica-race-from-face
-Predicting race from faces for movie data
+Predicting race from faces for movie data  
+========
+Please see the details of the definitions of race, taxonomy of race recognition, database details, neural network models and performance evaluation details in the [wiki page here]()  
+
+
+## Contents:  
+---------
+### race labels  
+actor_race.txt: labels for IMDB faces obtained as described in [Ramakrishna et. al., 2017, ACL](http://sail.usc.edu/publications/files/linguistic-analysis-differences_camera-ready.pdf)  
+lfw_race_dict.json: mapping of race for identities in the [LFW dataset](http://vis-www.cs.umass.edu/lfw/)  
+
+### aligning faces  
+average_face.ppm: average face used for in-plane face alignment  
+average_face.json: landmark information for the average face for alignment  
+faceswap.py: utilities for face alignment  
+
+average_faces: directory with average faces for the different classes in our data  
+
+### Convolution neural networks (CNN) training scripts and pretrained models  
+pretrained_models: Directory containing 5-class pretrained models  
+train_multiclass_vgg16_5class_subsample.py: Keras training script and CNN architecture details  
+test_race_models.py: performance evaluation scripts (ROC, accuracy, confusion matrix, etc.,)  
+utils.py: miscellaneous handy utility functions  
