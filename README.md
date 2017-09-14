@@ -4,7 +4,7 @@ Please see the details of the definitions of race, taxonomy of race recognition,
 
 
 ## Contents:  
----------
+
 ### race labels  
 actor_race.txt: labels for IMDB faces obtained as described in [Ramakrishna et. al., 2017, ACL](http://sail.usc.edu/publications/files/linguistic-analysis-differences_camera-ready.pdf)  
 lfw_race_dict.json: mapping of race for identities in the [LFW dataset](http://vis-www.cs.umass.edu/lfw/)  
