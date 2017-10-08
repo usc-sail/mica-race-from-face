@@ -1,6 +1,6 @@
 Predicting race from faces for movie data  
 ========
-Please see the details of the definitions of race, taxonomy of race recognition, database details, neural network models and performance evaluation details in the [wiki page here]()  
+Please see the details of the definitions of race, taxonomy of race recognition, database details, neural network models and performance evaluation details in the [wiki page here](https://github.com/usc-sail/mica-race-from-face/wiki)  
 
 
 ## Contents:  
