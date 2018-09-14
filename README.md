@@ -1,5 +1,9 @@
 Predicting race from faces for movie data  
 ========
+**NOTE:
+Classifying race, regardless of the definitional distinction between race and ethnicity, is extremely culturally sensitive and that any approach to classifying race will be done as respectfully as this problem deserves to be treated and as delicately as possible and in the ultimate interest of improving diversity on screen. This is a work in progress and plenty of scope for improvement.**
+
+
 Please see the details of the definitions of race, taxonomy of race recognition, database details, neural network models and performance evaluation details in the [wiki page here](https://github.com/usc-sail/mica-race-from-face/wiki)  
 
 
